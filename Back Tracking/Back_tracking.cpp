@@ -22,8 +22,8 @@ int cost[maxN], num_0 = 0;
 /*
 cost[i]: lưu trữ giá trị tổng thời gian làm việc của nhân viên đang ở vị trí X[i]
 Ví dụ:
-Nếu cấu hình X hiện tại đang gán đến i = 2 là [0, 2, 5, 0, 1, 4]
---> nhân viên 2 đang ở vị trí X[2] = 4 
+Nếu cấu hình X hiện tại đang gán đến i = 5 là [0, 2, 5, 0, 1, 4]
+--> nhân viên 2 đang ở vị trí X[5] = 4 
 --> cost[2] sẽ lưu trữ tổng thời gian làm việc hiện tại của nhân viên 2
 --> cost[2] = t[0][1] + t[1][4] = 140
 Ta có:
